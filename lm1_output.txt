@@ -1,0 +1,19 @@
+
+Call:
+lm(formula = price ~ sqft, data = house_price)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-117688  -17669   -4392   17341  137140 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 11541.53    5900.31   1.956   0.0513 .  
+sqft           40.14       2.66  15.089   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 33070 on 319 degrees of freedom
+Multiple R-squared:  0.4165,	Adjusted R-squared:  0.4146 
+F-statistic: 227.7 on 1 and 319 DF,  p-value: < 2.2e-16
+

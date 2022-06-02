@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = price ~ sqft + beds + baths + intst + age, data = house_price)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-101423  -19480   -1528   16497  138075 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -4854.0201 12573.6452  -0.386  0.69972    
+sqft           29.4409     3.3681   8.741  < 2e-16 ***
+beds         3815.7460  2441.8363   1.563  0.11914    
+baths       11129.4473  3556.5256   3.129  0.00192 ** 
+intst          -0.3593     0.2112  -1.702  0.08982 .  
+age          -351.4270    60.3751  -5.821 1.44e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 29660 on 315 degrees of freedom
+Multiple R-squared:  0.5366,	Adjusted R-squared:  0.5292 
+F-statistic: 72.94 on 5 and 315 DF,  p-value: < 2.2e-16
+
